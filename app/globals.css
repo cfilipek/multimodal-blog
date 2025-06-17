@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: system-ui, sans-serif;
+  }
+
+  body {
+    @apply bg-white text-black;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+
+  a {
+    @apply transition-all duration-200;
+  }
+
+  a:hover {
+    @apply underline;
+  }
+}
+
+@layer components {
+  .prose {
+    @apply max-w-none;
+  }
+
+  .prose p {
+    @apply mb-4;
+  }
+
+  .prose h2 {
+    @apply text-2xl font-bold mt-8 mb-4;
+  }
+
+  .prose h3 {
+    @apply text-xl font-bold mt-6 mb-3;
+  }
+
+  .prose ul {
+    @apply list-disc list-inside mb-4;
+  }
+
+  .prose li {
+    @apply mb-2;
+  }
+}
+
+/* Mobile-friendly improvements */
+@layer components {
+  .main-content {
+    @apply pt-4 md:pt-8;
+  }
+}
+
+/* Ensure dropdowns work properly on mobile */
+@media (max-width: 768px) {
+  .group:hover .group-hover\:opacity-100 {
+    opacity: 0 !important;
+    visibility: hidden !important;
+  }
+}
+
+/* Dancing monkey animation */
+@keyframes dance {
+  0% {
+    transform: rotate(-10deg) scale(1);
+  }
+  25% {
+    transform: rotate(10deg) scale(1.1);
+  }
+  50% {
+    transform: rotate(-5deg) scale(0.9);
+  }
+  75% {
+    transform: rotate(15deg) scale(1.05);
+  }
+  100% {
+    transform: rotate(-10deg) scale(1);
+  }
+}
+
+.animate-dance {
+  animation: dance 1s ease-in-out infinite;
+  transform-origin: center bottom;
+}
+
+.text-lg a {
+  text-decoration: underline !important;
+}
+
+/* Respect user's motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .animate-dance {
+    animation: none;
+  }
+}

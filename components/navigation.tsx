@@ -38,6 +38,10 @@ export default function Navigation() {
                 <Link href="/posts/introduction" className="block py-2 hover:underline font-mono text-sm">
                   Introduction
                 </Link>
+
+                <Link href="/posts/technology-effects" className="block py-2 hover:underline font-mono text-sm">
+                  Technology Effects
+                </Link>
                 {/* <Link href="/posts/multimodal-composition" className="block py-2 hover:underline font-mono text-sm">
                   Multimodal Composition Techniques
                 </Link>
@@ -109,6 +113,13 @@ export default function Navigation() {
                     onClick={closeMenu}
                   >
                     Introduction
+                  </Link>
+                  <Link
+                    href="/posts/technology-effects"
+                    className="block py-1 hover:underline font-mono text-sm"
+                    onClick={closeMenu}
+                  >
+                    Technology Effects
                   </Link>
                   {/* <Link
                     href="/posts/multimodal-composition"

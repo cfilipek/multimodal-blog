@@ -4,7 +4,7 @@ import Navigation from "@/components/navigation"
 import DancingMonkey from "@/components/dancing-monkey"
 
 
-export default function InntroductionPost() {
+export default function IntroductionPost() {
   return (
     <div className="min-h-screen bg-white">
       <Navigation />

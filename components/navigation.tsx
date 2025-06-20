@@ -42,15 +42,10 @@ export default function Navigation() {
                 <Link href="/posts/technology-effects" className="block py-2 hover:underline font-mono text-sm">
                   Technology Effects
                 </Link>
-                {/* <Link href="/posts/multimodal-composition" className="block py-2 hover:underline font-mono text-sm">
-                  Multimodal Composition Techniques
+
+                <Link href="/posts/digital-drawing" className="block py-2 hover:underline font-mono text-sm">
+                  Digital Drawing
                 </Link>
-                <Link href="/posts/digital-storytelling" className="block py-2 hover:underline font-mono text-sm">
-                  Digital Storytelling Methods
-                </Link>
-                <Link href="/posts/typography-meaning" className="block py-2 hover:underline font-mono text-sm">
-                  Typography and Meaning Making
-                </Link> */}
               </div>
             </div>
             <div className="relative group">
@@ -120,6 +115,14 @@ export default function Navigation() {
                     onClick={closeMenu}
                   >
                     Technology Effects
+                  </Link>
+
+                  <Link
+                    href="/posts/digital-drawing"
+                    className="block py-1 hover:underline font-mono text-sm"
+                    onClick={closeMenu}
+                  >
+                    Digital Drawing
                   </Link>
                   {/* <Link
                     href="/posts/multimodal-composition"

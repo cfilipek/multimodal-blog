@@ -76,6 +76,9 @@ export default function Navigation() {
             <Link href="/about" className="font-bold hover:underline">
               ABOUT
             </Link>
+            <Link href="/lesson-plan" className="font-bold hover:underline">
+              LESSON PLAN
+            </Link>
           </nav>
 
           {/* Mobile Hamburger Button */}
@@ -223,6 +226,10 @@ export default function Navigation() {
             {/* About Link */}
             <Link href="/about" className="font-bold hover:underline" onClick={closeMenu}>
               ABOUT
+            </Link>
+
+            <Link href="/lesson-plan" className="font-bold hover:underline">
+              LESSON PLAN
             </Link>
           </nav>
         </div>

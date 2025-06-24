@@ -46,6 +46,10 @@ export default function Navigation() {
                 <Link href="/posts/digital-drawing" className="block py-2 hover:underline font-mono text-sm">
                   Digital Drawing
                 </Link>
+
+                <Link href="/posts/2d-design-and-fabrication" className="block py-2 hover:underline font-mono text-sm">
+                  2D Design and Fabrication
+                </Link>
               </div>
             </div>
             <div className="relative group">
@@ -134,6 +138,14 @@ export default function Navigation() {
                     onClick={closeMenu}
                   >
                     Digital Drawing
+                  </Link>
+
+                  <Link
+                    href="/posts/2d-design-and-fabrication"
+                    className="block py-1 hover:underline font-mono text-sm"
+                    onClick={closeMenu}
+                  >
+                    2D Design and Fabrication
                   </Link>
                   {/* <Link
                     href="/posts/multimodal-composition"

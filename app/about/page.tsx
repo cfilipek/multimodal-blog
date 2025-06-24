@@ -79,7 +79,7 @@ export default function AboutPage() {
                 <div className="space-y-2 font-mono text-sm">
                   <p>MULTIMODAL LITERACIES</p>
                   <p>SUMMER 2025</p>
-                  <p>WEEKLY POSTS + SUMMARIES</p>
+                  <p>DAILY POSTS + SUMMARIES</p>
                 </div>
               </div>
 {/* 

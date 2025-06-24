@@ -69,6 +69,10 @@ export default function Navigation() {
                 <Link href="/summaries/day-4" className="block py-2 hover:underline font-mono text-sm">
                     Day 4: Cinematography/Videography & Sounds
                 </Link>
+
+                <Link href="/summaries/day-5" className="block py-2 hover:underline font-mono text-sm">
+                    Day 5: 2-D Design and Fabrication
+                </Link>
                 {/* <Link href="/summaries/week-3" className="block py-2 hover:underline font-mono text-sm">
                   Week 3: Digital Composition
                 </Link>
@@ -217,6 +221,15 @@ export default function Navigation() {
                   >
                     Day 4: Cinematography/Videography & Sounds
                   </Link>
+
+                  <Link
+                    href="/summaries/day-5"
+                    className="block py-1 hover:underline font-mono text-sm"
+                    onClick={closeMenu}
+                  >
+                    Day 5: 2-D Design and Fabrication
+                  </Link>
+                  
                   {/* <Link
                     href="/summaries/week-3"
                     className="block py-1 hover:underline font-mono text-sm"

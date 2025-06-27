@@ -47,6 +47,10 @@ export default function Navigation() {
                   Digital Drawing
                 </Link>
 
+                <Link href="/posts/cinematography" className="block py-2 hover:underline font-mono text-sm">
+                  Cinematography/Videography
+                </Link>
+
                 <Link href="/posts/2d-design-and-fabrication" className="block py-2 hover:underline font-mono text-sm">
                   2D Design and Fabrication
                 </Link>
@@ -142,6 +146,14 @@ export default function Navigation() {
                     onClick={closeMenu}
                   >
                     Digital Drawing
+                  </Link>
+
+                  <Link
+                    href="/posts/cinematography"
+                    className="block py-1 hover:underline font-mono text-sm"
+                    onClick={closeMenu}
+                  >
+                    Cinematography/Videography
                   </Link>
 
                   <Link
